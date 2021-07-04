@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #16304b;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  color: white;
+  padding: 0 2em;
+}
+
+.navbar > .logo > img {
+  width: 140px;
+}
+
+.navbar > .title {
+  margin-left: 1em;
+  font-size: 1.5rem;
+}
+
+.container {
+  padding: 1em 2em;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-container {
+  margin-top: 1em !important;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.MuiFormControl-root {
+  width: 200px;
+  margin-right: 1em !important;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  height: 7vh;
+  background-color: #f2f8fe;
+  align-items: center;
+}
+.footer-title{
+  font-size: large;
+  font-weight: 500;
+}
